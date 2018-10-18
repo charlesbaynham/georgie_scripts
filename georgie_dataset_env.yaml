@@ -1,0 +1,21 @@
+# conda environment for the Georgie to run the Imperial SAFE dataset checker
+#
+# Using this file to start a conda virtual environment will make sure that all
+# the required dependancies are installed. To do this, execute the fololowing
+# command:
+# 
+# conda env create -f georgie_dataset_env.yaml
+# 
+# This will create an environment called "dataset_checker": to use it, call "activate dataset_checker"
+
+name: dataset_checker
+# channels:
+#   - http://conda.anaconda.org/conda-forge/label/main
+dependencies:
+  - python=2.7   # or 2.7
+  - openpyxl
+  - requests
+  - simplejson
+  - git
+  - pip:
+    - xlrd
