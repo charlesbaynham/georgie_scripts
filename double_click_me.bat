@@ -13,6 +13,15 @@ call activate dataset_checker
 
 git clone https://github.com/ImperialCollegeLondon/safe_dataset_checker
 
-echo safe_dataset_checker is now downloaded and its requirements satisfied. To try it out, open a command prompt in the new directory just created within this one, then type "python ./safe_dataset_checker.py -h". You should get a friendly message. 
+echo.
+echo.
+echo "safe_dataset_checker" is now downloaded and its requirements satisfied. To try it out, open a command prompt in the new directory just created within this one, then type:
+echo.
+echo activate dataset_checker
+echo python ./safe_dataset_checker.py -h
+echo.
+echo You should get a friendly message if it worked. 
+echo.
+echo.
 
 pause
