@@ -7,7 +7,7 @@ REM This should work as long as conda is installed. To see if this is the case,
 REM start a command prompt and write "conda". If you get an error message
 REM instead of a help display, it's not installed properly.
 
-conda env create --file georgie_dataset_env.yaml
+call conda env create --file georgie_dataset_env.yaml
 
 call activate dataset_checker
 
